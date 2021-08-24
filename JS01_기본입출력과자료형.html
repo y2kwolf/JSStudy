@@ -1,0 +1,74 @@
+<!--
+■ 파일명: JS01.html
+■ 작성자: 진상영
+■ 작성일: 2021-08-23
+■ 내용: Javascript 1일차 기본, 자료형
+1. HTML기본입력: !+tab, HTML:5, ctrl+space
+2. Visual Studio Code Extensions 10
+    1) Introduction
+    2) Material theme 
+    3) Material icon theme
+    4) Prettier
+    5) bracket pair colorizer
+    6) Indent-rainbow
+    7) Auto rename tag *****
+    8) CSS PEEK
+    9) HTML CSS SUPPORT
+    10) LIVE SERVER ******
+3. Emmet (Zen Coding) 활용법
+4. Editor, IDE 종류
+- 메모장, Sublime
+- Visual Studio Code
+5. 크롬브라우저 콘솔로 결과확인(F12)
+6. 기본자료형(Primitive Data Types)
+- number, string, boolean
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS01 자료형</title>
+</head>
+
+<body>
+    <script>
+        // 기본입출력
+        alert("Hello world"); // 경고창 출력
+        console.log("Hello world"); // 콘솔창 출력(크롬브라우저 F12)
+        alert(prompt('당신의 나이는?') * 20);
+        console.log(prompt('당신의 나이는?'));
+        console.log("");
+
+        // 숫자(Number)
+        console.log(8);
+        console.log(Math.pow(3, 2));
+        console.log(Math.round(10.6));
+        console.log(Math.ceil(10.6));
+        console.log(Math.floor(10.6));
+        console.log(Math.random()); // 0 < 값 < 1
+        console.log(Math.round(100 * Math.random()));
+        console.log("");
+
+        // 문자열(String)
+
+        console.log('Jin\'s Javascript study'); // escape 문자
+        console.log('Jin\'s \nJavascript study');
+        console.log("Jin\'s " + "Javascript study");
+        console.log("1" + "1");
+        console.log(1 + 1);
+        console.log("");
+
+        // 내장함수, 메소드
+        console.log(typeof "a");
+        console.log(typeof 1);
+        console.log("wolfjin".length);
+        console.log("wolfjin".indexOf("w")); // 문자열 배열 인덱스값 반환
+        console.log("wolfjin".indexOf("o"));
+    </script>
+</body>
+
+</html>

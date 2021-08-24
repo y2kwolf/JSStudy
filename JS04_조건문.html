@@ -1,0 +1,55 @@
+<!--
+■ 파일명: JS04.html
+■ 작성자: 진상영
+■ 작성일: 2021-08-23
+■ 내용: 조건문
+1) if, else if, else
+-->
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS04 조건문</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        if (false) {
+            console.log("a");
+        } else if (false) {
+            console.log("b"); 12
+        } else if (false) {
+            console.log("c");
+        } else {
+            console.log("d");
+        }
+        /*
+        var id = prompt("아이디를 입력하세요!");
+        if (id == 'wolfjin') {
+            var password = prompt("비밀번호를 입력해 주세요");
+            if (password == "1111") {
+                alert("로그인 되셨습니다." + id + "님 반갑습니다.");
+            } else {
+                alert("비밀번호가 일치하지 않습니다.");
+            }
+        } else {
+            alert("아이디가 일치하지 않습니다.");
+        }
+        */
+
+        var id = prompt("아이디를 입력하세요!");
+        var password = prompt("비밀번호를 입력해 주세요");
+        if (id == 'wolfjin' && password === "1111") {
+            alert("로그인 되셨습니다. " + id + "님 반갑습니다.");
+        } else {
+            alert("아이디가 일치하지 않습니다.");
+        }
+
+    </script>
+</body>
+
+</html>
